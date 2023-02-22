@@ -21,7 +21,6 @@ public class Lab {
      * Check out this guide on throwing exceptions: https://rollbar.com/guides/java/how-to-throw-exceptions-in-java/#
      */
     public void mustThrow() throws Exception {
-        //throw new Exception("This is an exception!");
-        int i = 1/0;
+        throw new Exception("This is an exception!");
     }
 }
